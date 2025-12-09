@@ -2,6 +2,9 @@ idf_component_register(
     SRCS 
         "main.cpp" 
         "bme688.c"
+        "ssd1306.c"
+        "ssd1306_i2c.c"
+        "ssd1306_spi.c"
     INCLUDE_DIRS 
         "."
         "/lib/"
